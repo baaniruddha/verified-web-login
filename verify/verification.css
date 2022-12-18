@@ -1,0 +1,127 @@
+
+ @font-face {
+     font-family: Bornopata;
+     src:url("webfont.ttf");
+}
+ .Bornopata{
+     font-family: Bornopata;
+}
+
+ body{
+     margin: 0;
+     padding: 0;
+     background-image: -webkit-gradient(linear,left top,right top,from(#8cc63e),to(#009444));
+     background-image: linear-gradient(to right,#8cc63e,#009444);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100vh;
+     font-family: "Bornopata";
+}
+ .login{
+     color: white;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     text-align:center;
+     transform: translate(-50%,-50%);
+     width: 450px;
+     padding: 25px;
+     background: rgba(0,0,0,0.8);
+     box-sizing: border-box;
+     box-shadow: 0 15px 25px rgba(0,0,0,0.8);
+     border-radius: 10px;
+     font-family: "Bornopata";
+}
+ .login h2{
+     margin-top: 4px;
+     margin-bottom: 20px;
+     padding: 0;
+     color: #fff;
+     text-align: center;
+     font-family: "Bornopata";
+     font-size: 24px;
+}
+ .login .input-box{
+     position: relative;
+     font-family: "Bornopata";
+     padding: 8px;
+}
+ .login .input-box input{
+     width: 370px;
+     left: 8px;
+     padding: 4px;
+     font-size: 18px;
+     color: #fff;
+     margin-bottom: 10px;
+     border: none;
+     border-bottom: 1.2px solid #03a9f4;
+     outline: none;
+     background: transparent;
+     font-family: "Bornopata";
+}
+ .login .input-box label{
+     position: absolute;
+     top: 0;
+     left: 8px;
+     padding: 10px 0;
+     font-size: 20px;
+     color: #fff;
+     pointer-events: none;
+     transition: 0.8s;
+     font-family: "Bornopata";
+}
+ .login .input-box input:focus ~ label, .login .input-box input:valid ~ label{
+     top: -16px;
+     left: 0;
+     color: #03a9f4;
+     font-size: 22px;
+     font-family: "Bornopata";
+}
+ .login button[type="submit"]{
+     background: transparent;
+     border:none;
+     width: 180px;
+     height: 50px;
+     outline: none;
+     color: #fff;
+     background: #ed0e3f;
+     padding: 10px 20px;
+     cursor: pointer;
+     border-radius: 6px;
+     font-size: 22px;
+     font-family: "Bornopata";
+}
+ .login button[type="submit"]:hover {
+     cursor: pointer;
+     background: #39dc79;
+     color: navy;
+     font-family: "Bornopata";
+     font-weight: bold;
+     font-size: 24px;
+     width: 180px;
+}
+ .login a{
+     font-size: 19px;
+     color: #24fc03;
+     font-family: "Bornopata";
+}
+ .footer{
+     cursor: pointer;
+     position: fixed;
+     text-align: center;
+     bottom: 0px;
+     width: 100%;
+     font-family: "Bornopata";
+}
+ .footer:hover{
+     cursor: pointer;
+     position: fixed;
+     text-align: center;
+     background: #31c8a9c4;
+     bottom: -5px;
+     width: 100%;
+     line-height: 40%;
+     font-size: 106%;
+     font-family: "Bornopata";
+}
+ 
